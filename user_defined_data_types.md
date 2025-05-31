@@ -63,21 +63,35 @@ struct person {
 };
 
 int main() {
-    struct person stud;
+```
+#include<stdio.h>
 
-    // Input
-    printf("Enter name and age: ");
-    scanf("%s %d", stud.name, &stud.age);
+/* Declaration of structure */
+struct address
+{
+ int houseno;
+ char street[20];
+ int stateno;
+};
+struct person
+{
+ char name[30];
+ int age;
 
-    printf("Enter street name, house number and state number: ");
-    scanf("%s %d %d", stud.adr.street, &stud.adr.houseno, &stud.adr.stateno);
+};
 
-    // Output
-    printf("\nName: %s\nAge: %d\n", stud.name, stud.age);
-    printf("Address: %s, House No: %d, State No: %d\n",
-           stud.adr.street, stud.adr.houseno, stud.adr.stateno);
-
-    return 0;
+int main()
+{
+ struct person stud;
+ struct address add;
+ 
+ scanf("%s %d",stud.name, &stud.age);
+ scanf("%s %d %d",add.street,&add.houseno,&add.stateno);
+ 
+ printf("Name: %s Roll: %d\n", stud.name, stud.age);
+ printf("Address:%s, House no. %d, state: %d",add.street, add.houseno, add.stateno);
+ 
+ return 0;
 }
 ```
 
