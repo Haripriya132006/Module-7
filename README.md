@@ -1,4 +1,4 @@
-### 📘 Module 7 – C Programming Exercises
+# 📘 Module 7 – C Programming Exercises
 ## 📁 Repository Overview
 This repository contains a collection of C programming exercises designed to reinforce understanding of fundamental concepts such as:
 
@@ -28,7 +28,7 @@ Images: Includes relevant images (image.png, image-1.png, image-2.png, image-3.p
 ## 🛠️ Getting Started
 To explore and run the programs:
 
-# Clone the Repository:
+### Clone the Repository:
 
 ```
 git clone https://github.com/Haripriya132006/Module-7.git
@@ -36,7 +36,7 @@ Navigate to the Directory:
 
 cd Module-7
 ```
-# Compile and Run:
+### Compile and Run:
 
 Use a C compiler like gcc to compile the .c files.
 
